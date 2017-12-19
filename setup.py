@@ -7,6 +7,8 @@ def readme():
     with open('README.rst') as f:
         return f.read()
 
+    
+    
 try:
     import numpy as np
     include_dirs = [np.get_include()]
